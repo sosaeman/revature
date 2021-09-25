@@ -1,4 +1,4 @@
-package Week4.one.three;
+package Week4.three;
 
 public class TalkablePerson {
     int age=30;

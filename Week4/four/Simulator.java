@@ -1,4 +1,4 @@
-package Week4.one.four;
+package Week4.four;
 
 public class Simulator {
     public static void main(String[] args) {

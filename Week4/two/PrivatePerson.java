@@ -1,4 +1,4 @@
-package Week4.one.two;
+package Week4.two;
 
 public class PrivatePerson {
     private int age;
