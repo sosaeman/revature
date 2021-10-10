@@ -1,7 +1,9 @@
-package com.revature.test;
+package Week5.test;
 
-import com.revature.model.ActionFigure;
-import com.revature.model.Doll;
+import Week5.model.Doll;
+import Week5.model.ActionFigure;
+
+
 
 public class PlayWithToys {
 

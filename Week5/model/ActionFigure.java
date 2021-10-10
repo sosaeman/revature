@@ -1,4 +1,4 @@
-package com.revature.model;
+package Week5.model;
 
 public class ActionFigure extends Doll {
 	private String skill;
@@ -27,6 +27,6 @@ public class ActionFigure extends Doll {
 	}
 	
 	public void useSkill(){
-		System.out.println( "Ka Pow! I’m using my skill,"+this.skill);
+		System.out.println( "Ka Pow! Iï¿½m using my skill,"+this.skill);
 	};
 }

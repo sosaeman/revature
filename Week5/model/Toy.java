@@ -1,4 +1,4 @@
-package com.revature.model;
+package Week5.model;
 
 public class Toy {
 	
