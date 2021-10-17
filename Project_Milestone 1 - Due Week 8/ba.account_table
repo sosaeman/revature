@@ -1,0 +1,10 @@
+-- Drop table
+
+-- DROP TABLE "BA".account;
+
+CREATE TABLE "BA".account (
+	acc_id serial4 NOT NULL,
+	acc_type varchar NOT NULL,
+	acc_balance varchar NOT NULL,
+	CONSTRAINT account_pk PRIMARY KEY (acc_id)
+);

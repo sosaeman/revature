@@ -1,0 +1,10 @@
+-- Drop table
+
+-- DROP TABLE "BA".login;
+
+CREATE TABLE "BA".login (
+	login_id serial4 NOT NULL,
+	login_email varchar NOT NULL,
+	login_pass varchar NOT NULL,
+	CONSTRAINT login_pk PRIMARY KEY (login_id)
+);

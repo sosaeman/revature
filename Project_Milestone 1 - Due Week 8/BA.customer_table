@@ -1,0 +1,14 @@
+-- Drop table
+
+-- DROP TABLE "BA".customer;
+
+CREATE TABLE "BA".customer (
+	cus_id serial4 NOT NULL,
+	cus_name varchar NOT NULL,
+	cus_email varchar NOT NULL,
+	cus_acc int4 NOT NULL,
+	cus_login int4 NOT NULL,
+	CONSTRAINT customer_pk PRIMARY KEY (cus_id),
+	CONSTRAINT customer_fk FOREIGN KEY (cus_acc) REFERENCES "BA".account(acc_id),
+	CONSTRAINT customer_fk_1 FOREIGN KEY (cus_login) REFERENCES "BA".login(login_id)
+);
