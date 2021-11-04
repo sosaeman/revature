@@ -1,0 +1,7 @@
+
+INSERT INTO "BA".account (acc_type,acc_balance)
+	VALUES ('checking',0);
+INSERT INTO "BA".account (acc_type,acc_balance)
+	VALUES ('saving',0);
+INSERT INTO "BA".account (acc_type,acc_balance)
+	VALUES ('morgage',0);

@@ -1,0 +1,5 @@
+
+INSERT INTO "BA".login (login_id,login_email,login_pass)
+	VALUES ('default,'jw@gmail.com',123456);
+INSERT INTO "BA".login (login_id,login_email,login_pass)
+	VALUES ('default,'es@gmail.com',654321);

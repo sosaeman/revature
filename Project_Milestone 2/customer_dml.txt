@@ -1,0 +1,5 @@
+
+INSERT INTO "BA".customer (cus_name,cus_email,cus_acc,cus_login)
+	VALUES ('John Wick','jw@gmail.com',1,1);
+INSERT INTO "BA".customer (cus_name,cus_email,cus_acc,cus_login)
+	VALUES ('emmanuel sosa','es@gmail.com',2,2);
