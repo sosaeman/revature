@@ -1,0 +1,10 @@
+09 Nov 2021 19:57:02  TRACE com.revature.logging.LogSimulator:16 TRACE LOG!
+09 Nov 2021 19:57:02  DEBUG com.revature.logging.LogSimulator:17 DEBUG LOG!
+09 Nov 2021 19:57:02  INFO com.revature.logging.LogSimulator:18 INFO LOG!
+09 Nov 2021 19:57:02  WARN com.revature.logging.LogSimulator:19 WARN LOG!
+09 Nov 2021 19:57:02  ERROR com.revature.logging.LogSimulator:20 ERROR LOG!
+09 Nov 2021 19:57:02  FATAL com.revature.logging.LogSimulator:21 FATAL LOG!
+09 Nov 2021 20:37:26  TRACE com.revature.banking.dao.EmployeeDAOImpl:65 employee ID2recived
+09 Nov 2021 20:47:49  TRACE banking.dao.EmployeeDAOImpl:65 selectEmployeeById(2)
+09 Nov 2021 20:49:17  TRACE com.revature.banking.dao.EmployeeDAOImpl:65 selectEmployeeById(2)
+09 Nov 2021 20:50:32  TRACE com.revature.banking.dao.EmployeeDAOImpl:65 selectEmployeeById(2)
