@@ -1,0 +1,83 @@
+15 Nov 2021 20:06:20  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+15 Nov 2021 20:06:31  TRACE revature.project.banking.dao.CustomerDAOImpl:105 selectAllCustomer()[0m
+15 Nov 2021 20:06:37  TRACE revature.project.banking.dao.EmployeeDAOImpl:135 selectAllEmployees [0m
+15 Nov 2021 20:06:41  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+15 Nov 2021 20:24:33  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+15 Nov 2021 20:28:17  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+15 Nov 2021 20:28:31  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 11:00:24  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sosaspass)[0m
+17 Nov 2021 11:00:24  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(2)[0m
+17 Nov 2021 11:00:24  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer Customer [cus_id=2, cus_name=sosa, cus_phone=098-777-5555, cus_balance=919.0, login_id=2, cus_status=open]
+[0m
+17 Nov 2021 11:00:31  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(2)[0m
+17 Nov 2021 11:37:10  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sammysampass)[0m
+17 Nov 2021 11:37:10  TRACE revature.project.banking.dao.LoginDAOImpl:40 insertIntoLogin(sammy)[0m
+17 Nov 2021 11:37:10  TRACE revature.project.banking.utilities.NewCustomer:50 login Added Successfully[0m
+17 Nov 2021 11:37:11  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sammysampass)[0m
+17 Nov 2021 11:37:11  TRACE revature.project.banking.dao.CustomerDAOImpl:41 insertIntoCustomer(sammy)[0m
+17 Nov 2021 11:37:11  TRACE revature.project.banking.utilities.NewCustomer:62 Customer Added Successfully[0m
+17 Nov 2021 11:41:39  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sammysampass)[0m
+17 Nov 2021 11:41:39  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(12)[0m
+17 Nov 2021 11:41:39  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer Customer [cus_id=11, cus_name=sammy, cus_phone=333-555-4444, cus_balance=0.0, login_id=12, cus_status=pending]
+[0m
+17 Nov 2021 11:42:20  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(bossboss)[0m
+17 Nov 2021 11:42:20  TRACE revature.project.banking.dao.EmployeeDAOImpl:102 selectEmployeeByLoginId 7[0m
+17 Nov 2021 11:42:20  TRACE revature.project.services.LoginAuthentication:50 authenticating Employee Employees [emp_id=2, emp_name=boss, emp_phone=333-000-3456, login_id=7, emp_title=boss]
+[0m
+17 Nov 2021 11:42:21  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 11:46:04  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 11:46:30  TRACE revature.project.banking.dao.CustomerDAOImpl:71 selectCustomerById(8)[0m
+17 Nov 2021 11:46:30  TRACE revature.project.banking.dao.CustomerDAOImpl:134 updateCustomer(free)[0m
+17 Nov 2021 11:46:30  TRACE revature.project.banking.utilities.EmpTask:47 Account approveCustomer [cus_id=8, cus_name=free, cus_phone=000-000-0000, cus_balance=0.0, login_id=10, cus_status=open]
+[0m
+17 Nov 2021 11:46:31  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:16:02  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(wwwwpass)[0m
+17 Nov 2021 12:16:02  TRACE revature.project.banking.dao.LoginDAOImpl:40 insertIntoLogin(www)[0m
+17 Nov 2021 12:16:02  TRACE revature.project.banking.utilities.NewCustomer:50 login Added Successfully[0m
+17 Nov 2021 12:16:03  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(wwwwpass)[0m
+17 Nov 2021 12:16:04  TRACE revature.project.banking.dao.CustomerDAOImpl:41 insertIntoCustomer(www)[0m
+17 Nov 2021 12:16:04  TRACE revature.project.banking.utilities.NewCustomer:62 Customer Added Successfully[0m
+17 Nov 2021 12:16:45  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(wwwwpass)[0m
+17 Nov 2021 12:16:46  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:16:46  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer Customer [cus_id=12, cus_name=www, cus_phone=444-666-5555, cus_balance=0.0, login_id=13, cus_status=pending]
+[0m
+17 Nov 2021 12:17:06  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(bossboss)[0m
+17 Nov 2021 12:17:07  TRACE revature.project.banking.dao.EmployeeDAOImpl:102 selectEmployeeByLoginId 7[0m
+17 Nov 2021 12:17:07  TRACE revature.project.services.LoginAuthentication:50 authenticating Employee Employees [emp_id=2, emp_name=boss, emp_phone=333-000-3456, login_id=7, emp_title=boss]
+[0m
+17 Nov 2021 12:17:07  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:17:43  TRACE revature.project.banking.dao.CustomerDAOImpl:71 selectCustomerById(12)[0m
+17 Nov 2021 12:17:44  TRACE revature.project.banking.dao.CustomerDAOImpl:134 updateCustomer(www)[0m
+17 Nov 2021 12:17:44  TRACE revature.project.banking.utilities.EmpTask:47 Account approveCustomer [cus_id=12, cus_name=www, cus_phone=444-666-5555, cus_balance=0.0, login_id=13, cus_status=open]
+[0m
+17 Nov 2021 12:17:44  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:18:40  TRACE revature.project.banking.dao.CustomerDAOImpl:71 selectCustomerById(11)[0m
+17 Nov 2021 12:18:41  TRACE revature.project.banking.dao.CustomerDAOImpl:155 deleteCustomerById(11)[0m
+17 Nov 2021 12:18:41  TRACE revature.project.banking.utilities.EmpTask:71 This account will be Rejected and deletedCustomer [cus_id=11, cus_name=sammy, cus_phone=333-555-4444, cus_balance=0.0, login_id=12, cus_status=pending]
+[0m
+17 Nov 2021 12:18:41  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:19:31  TRACE revature.project.banking.dao.CustomerDAOImpl:105 selectAllCustomer()[0m
+17 Nov 2021 12:19:41  TRACE revature.project.banking.dao.EmployeeDAOImpl:135 selectAllEmployees [0m
+17 Nov 2021 12:19:49  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:19:59  TRACE revature.project.banking.dao.CustomerDAOImpl:223 selectAllCustomerWithPendingStatus[0m
+17 Nov 2021 12:20:46  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(wwwwpass)[0m
+17 Nov 2021 12:20:47  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:20:47  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer Customer [cus_id=12, cus_name=www, cus_phone=444-666-5555, cus_balance=0.0, login_id=13, cus_status=open]
+[0m
+17 Nov 2021 12:21:03  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:21:13  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:21:18  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:21:25  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:21:32  TRACE revature.project.banking.dao.CustomerDAOImpl:134 updateCustomer(www)[0m
+17 Nov 2021 12:21:32  TRACE revature.project.banking.utilities.Withdraw:48 Withdraw Successfull[0m
+17 Nov 2021 12:21:35  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:21:38  TRACE revature.project.banking.dao.CustomerDAOImpl:134 updateCustomer(www)[0m
+17 Nov 2021 12:21:38  TRACE revature.project.banking.utilities.Deposit:44 Deposit Successfull[0m
+17 Nov 2021 12:21:46  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(13)[0m
+17 Nov 2021 12:25:29  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sosaspass)[0m
+17 Nov 2021 12:25:30  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(2)[0m
+17 Nov 2021 12:25:30  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer Customer [cus_id=2, cus_name=sosa, cus_phone=098-777-5555, cus_balance=919.0, login_id=2, cus_status=open]
+[0m
+17 Nov 2021 12:33:32  TRACE revature.project.banking.dao.LoginDAOImpl:72 selectLoginNameAndPass(sammysampass)[0m
+17 Nov 2021 12:33:33  TRACE revature.project.banking.dao.CustomerDAOImpl:252 selectCustomerByLoginId(12)[0m
+17 Nov 2021 12:33:33  TRACE revature.project.services.LoginAuthentication:44 authenticating Customer null[0m
